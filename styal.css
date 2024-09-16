@@ -3,3 +3,48 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+body {
+	background-color: aquamarine;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100vh;
+}
+
+.container {
+	background-color: white;
+	width: 400px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.header {
+	background-color: blue;
+	color: white;
+	border-radius: 8px 8px 0 0;
+	font-weight: bold;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+label {
+	display: block;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input {
+	width: 90%;
+	font-size: 1rem;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	padding: 10px;
+}
+
+.output {
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+	/* margin-bottom: 6px; */
+}
